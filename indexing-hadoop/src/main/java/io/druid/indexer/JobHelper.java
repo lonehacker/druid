@@ -432,6 +432,7 @@ public class JobHelper
         );
         break;
       case "s3":
+      case "s3a":
       case "s3n":
         loadSpec = ImmutableMap.<String, Object>of(
             "type", "s3_zip",
